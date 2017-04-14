@@ -68,10 +68,10 @@ table, tr, td {
 
 html {
   min-height: 100%;
-  background: url("../img/main-bg.png") center; }
+  background: url("https://image.ibb.co/ng8Ofk/main_bg.png") center; }
 
 table.body {
-  background: url("../img/main-bg.png") center;
+  background: url("https://image.ibb.co/ng8Ofk/main_bg.png") center;
   height: 100%;
   width: 100%; }
 
@@ -1382,6 +1382,17 @@ body.outlook p {
   padding-top: 16px;
   padding-bottom: 16px; }
 
+table.button.more-btn table td {
+  padding: 0 20px;
+  border: 1px solid #0098ce; }
+  table.button.more-btn table td a {
+    color: #0098ce !important;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    line-height: 40px;
+    text-transform: none; }
+
 p {
   margin: 0; }
 
@@ -1432,11 +1443,11 @@ p {
 
 .header-link {
   text-align: right;
-  display: block;
-  float: right;
+  display: inline-block;
+  font-size: 14px;
   width: 31px; }
-  .header-link_cart {
-    margin-left: 18px; }
+  .header-link_user {
+    margin-right: 15px; }
 
 .product {
   padding-bottom: 25px !important; }
@@ -1444,6 +1455,9 @@ p {
 .product-image {
   height: 150px;
   margin-bottom: 10px; }
+
+.product a {
+  color: #666666; }
 
 .product-description {
   font-size: 12px;
@@ -1455,13 +1469,6 @@ p {
 
 .more-wrapper {
   margin-bottom: 15px; }
-
-.more-btn {
-  display: inline-block;
-  padding: 0 20px;
-  line-height: 40px;
-  color: #0098ce;
-  border: 1px solid #0098ce; }
 
 .catalog-list {
   padding-left: 15px; }

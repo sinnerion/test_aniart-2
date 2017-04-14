@@ -1,5 +1,24 @@
 @import "foundation";
 
+// Buttons
+table.button.more-btn {
+  table {
+    td {
+      padding: 0 20px;
+      border: 1px solid #0098ce;
+
+      a {
+        color: #0098ce !important;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0;
+        line-height: 40px;
+        text-transform: none;
+      }
+    }
+  }
+}
+
 p {
   margin: 0;
 }
@@ -59,13 +78,15 @@ p {
   }
 }
 
+
+
 .header-link {
   text-align: right;
-  display: block;
-  float: right;
+  display: inline-block;
+  font-size: 14px;
   width: 31px;
-  &_cart {
-    margin-left: 18px;
+  &_user {
+    margin-right: 15px;
   }
 }
 
@@ -76,6 +97,10 @@ p {
 .product-image {
   height: 150px;
   margin-bottom: 10px;
+}
+
+.product a {
+  color: #666666;
 }
 
 .product-description {
@@ -90,14 +115,6 @@ p {
 
 .more-wrapper {
   margin-bottom: 15px;
-}
-
-.more-btn {
-  display: inline-block;
-  padding: 0 20px;
-  line-height: 40px;
-  color: #0098ce;
-  border: 1px solid #0098ce;
 }
 
 .catalog-list {
